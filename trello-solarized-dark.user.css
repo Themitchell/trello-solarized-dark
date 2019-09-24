@@ -118,6 +118,9 @@ hr {
 	background: #93a1a1 !important;
 }
 
+.mod-card-back-title:not(.is-editing) {
+    color: #eee8d5;
+}
 
 /* Card details */
 .card-detail-window {
