@@ -28,10 +28,13 @@ body {
 	background-color: #141414 !important;
 }
 
+#trello-root {
+    background-image: none !important;
+}
 
 /* Header section */
-.board-header,
-.board-canvas {
+#trello-root .board-header,
+#trello-root .board-canvas {
   background: transparent !important;
 }
 
@@ -61,8 +64,8 @@ body {
 /* Board page */
 
 /* Board title */
-.board-header-btn,
-.board-header-btn-icon {
+#trello-root .board-header-btn,
+#trello-root .board-header-btn-icon {
 	color: #eee8d5;
     --webkit-filter: none;
     filter: none;
