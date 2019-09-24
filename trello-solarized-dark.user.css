@@ -60,8 +60,11 @@ body {
 /* Board page */
 
 /* Board title */
-.board-header-btn {
+.board-header-btn,
+.board-header-btn-icon {
 	color: #eee8d5;
+    --webkit-filter: none;
+    filter: none;
 }
 
 /* Lists */
