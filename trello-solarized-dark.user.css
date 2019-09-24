@@ -30,8 +30,9 @@ body {
 
 
 /* Header section */
-#header {
-  background: transparent;
+.board-header,
+.board-canvas {
+  background: transparent !important;
 }
 
 
